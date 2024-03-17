@@ -2,7 +2,6 @@
 
 ##  Demo
 
-https://stevengo-youtube-downloader.streamlit.app/
 
 ## Dependencies
 `streamlit` `pytube`
