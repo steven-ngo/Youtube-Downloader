@@ -1,11 +1,11 @@
 import streamlit as st
-import pandas as pd
 from pytube import YouTube
 import time
+
 # App description
 st.markdown('''
 # Youtube Downloader
-- Source Code: 
+- Source Code: https://github.com/steven-ngo/Youtube-Downloader
 - Language: `Python`
 - Libraries: `streamlit` `pytube`
 ''')
@@ -49,7 +49,7 @@ if st.button("download") and path:
         my_bar.empty()
     except Exception:
         st.error("Error")
-        
+
 if st.button("view") and path: 
     try:
         st.video(path) 

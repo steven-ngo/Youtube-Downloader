@@ -5,7 +5,7 @@
 https://stevengo-youtube-downloader.streamlit.app/
 
 ## Dependencies
-streamlit==1.32.0
+`streamlit` `pytube`
 
 ## Run the App Locally
 ### Create conda environment
